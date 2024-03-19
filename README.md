@@ -10,7 +10,7 @@
 </p>
 
 
-#### Outpainted Image using the first implementation (20 pixels)
+#### Outpainted Image(20 pixels) using the first implementation:
 - The following is the model generated outpainted(20 pixels) image for the given source image.
 <p align="center">
 
