@@ -20,7 +20,7 @@
 
 
 ### Feedforward network +  Positional Encoding-based implementation for learning the source image distribution.
-- Reported PSNR 24.389 and better reconstruction
+- Reported PSNR 24.389
 - Ground truth(left) with the improved Reconstructed image(right):--
 <p align="center">
 <img  alt="comparison"  src="results/modified_output.png"  width="100%" />
