@@ -1,7 +1,7 @@
 # Image Outpainting using Implicit Neural Representations(INR)
 
 ### Feedforward network-based implementation for learning the source image distribution.
-### Results of the first implementation:
+#### Results of the first implementation:
 - Reported PSNR 23.003
 - Ground truth(left) with the Reconstructed image (right):-
 <p align="center">
@@ -10,7 +10,7 @@
 </p>
 
 
-### Outpainted Image (20 pixels)
+#### Outpainted Image (20 pixels)
 - The following is the model generated outpainted(20 pixels) image for the given source image.
 <p align="center">
 
@@ -20,6 +20,7 @@
 
 
 ### Feedforward network +  Positional Encoding-based implementation for learning the source image distribution.
+#### Results of the first implementation:
 - Reported PSNR 24.389
 - Ground truth(left) with the improved Reconstructed image(right):--
 <p align="center">
