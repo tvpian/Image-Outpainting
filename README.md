@@ -4,7 +4,7 @@
 
 ### Implemented a simple feedforward network to compress the image 
 ### Initial model Results:-
-- Reported PSNR 27.7
+- Reported PSNR 23.003
 - Ground truth(left image) with the reconstruction image (right):-
 <p align="center">
 
@@ -21,7 +21,7 @@
 
 
 ### Improved model by using positional encoding
--  Reported PSNR 29.2 and better reconstruction
+-  Reported PSNR 24.389 and better reconstruction
 - Comparison of initial and Improved model with each other and ground truth:-
 <p align="center">
 <img  alt="comparison"  src="results/modified_output.png"  width="100%" />
@@ -31,4 +31,4 @@
 
 ## References :-
 - [Fourier Features Let Networks Learn
-High Frequency Functions in Low Dimensional Domains](https://arxiv.org/pdf/2006.10739.pdf)
+High-Frequency Functions in Low Dimensional Domains](https://arxiv.org/pdf/2006.10739.pdf)
