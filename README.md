@@ -1,11 +1,9 @@
-# Image_Outpainting
+# Image Outpainting using Implicit Neural Representations(INR)
 
-# Implicit-Neural-Representations
-
-### Implemented a simple feedforward network to compress the image 
-### Initial model Results:-
+### Feedforward network-based implementation for learning the source image distribution.
+### Results of the first implementation:
 - Reported PSNR 23.003
-- Ground truth(left image) with the reconstruction image (right):-
+- Ground truth(left) with the Reconstructed image (right):-
 <p align="center">
 
 <img  alt="simple_model"  src="results/og_output.png"  width="100%" />
@@ -13,6 +11,7 @@
 
 
 ### Outpainted Image (20 pixels)
+- The following is the model generated outpainted(20 pixels) image for the given source image.
 <p align="center">
 
 <img  alt="outpainted"  src="results/outpainting.png"  width="50%" />
@@ -20,9 +19,9 @@
 </p>
 
 
-### Improved model by using positional encoding
--  Reported PSNR 24.389 and better reconstruction
-- Comparison of initial and Improved model with each other and ground truth:-
+### Feedforward network +  Positional Encoding-based implementation for learning the source image distribution.
+- Reported PSNR 24.389 and better reconstruction
+- Ground truth(left) with the improved Reconstructed image(right):--
 <p align="center">
 <img  alt="comparison"  src="results/modified_output.png"  width="100%" />
 
@@ -31,4 +30,4 @@
 
 ## References :-
 - [Fourier Features Let Networks Learn
-High-Frequency Functions in Low Dimensional Domains](https://arxiv.org/pdf/2006.10739.pdf)
+High-Frequency Functions in Low-Dimensional Domains](https://arxiv.org/pdf/2006.10739.pdf)
