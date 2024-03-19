@@ -10,7 +10,7 @@
 </p>
 
 
-#### Outpainted Image (20 pixels)
+#### Outpainted Image using the first implementation (20 pixels)
 - The following is the model generated outpainted(20 pixels) image for the given source image.
 <p align="center">
 
@@ -20,7 +20,7 @@
 
 
 ### Feedforward network +  Positional Encoding-based implementation for learning the source image distribution.
-#### Results of the first implementation:
+#### Results of the second implementation:
 - Reported PSNR 24.389
 - Ground truth(left) with the improved Reconstructed image(right):--
 <p align="center">
